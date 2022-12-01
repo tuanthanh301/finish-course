@@ -5,20 +5,8 @@ function App() {
   // first commit
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1> Hi guys, this is the finished-project of course CIJS78</h1>
+      <h2> Xin chào mọi người, mình là Hiệp Gay</h2>
     </div>
   );
 }
