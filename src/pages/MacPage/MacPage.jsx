@@ -2,7 +2,11 @@ import React from 'react'
 
 const MacPage = () => {
   return (
-    <div>MacPage</div>
+    <>
+      <div>
+        KEKEEEEEEEEEEEEEEEEEEEEEE MacPage
+      </div>
+    </>
   )
 }
 
