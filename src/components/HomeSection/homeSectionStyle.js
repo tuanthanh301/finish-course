@@ -4,7 +4,8 @@ import { colors } from '../../common/colors';
 export const HomeSectionWrapper = styled.div`
     width: 100%;
     height: 692px;
-    background-image: url('https://www.apple.com/v/home/aw/images/heroes/iphone-14/hero_iphone14__fjmsqstr1ceq_largetall.jpg');
+    /* background-image: url('https://www.apple.com/v/home/aw/images/heroes/iphone-14/hero_iphone14__fjmsqstr1ceq_largetall.jpg'); */
+    background-image:${props => `url(${props?.url})`};
     background-position: center;
     display: flex;
     flex-direction: column;

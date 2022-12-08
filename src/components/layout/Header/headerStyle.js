@@ -9,6 +9,9 @@ export const HeaderWrapper = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    position: sticky;
+    z-index: 1;
+    top: 0;
 `
 export const ItemHeader = styled(Link)`
     color: ${colors.itemHeader};
@@ -19,6 +22,5 @@ export const ItemHeader = styled(Link)`
     text-decoration: none;
     :hover{
         color:${colors.white};
-
     }
 `
