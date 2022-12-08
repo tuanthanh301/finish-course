@@ -22,10 +22,6 @@ const RootWrapper = () => {
         <Route path="/iphone" element={<IPhonePage />} />
         <Route path="/watch" element={<WatchPage />} />
         <Route path="/airpods" element={<AirPodsPage />} />
-        
-
-        
-
       </Routes>
     </BrowserRouter >
   )
