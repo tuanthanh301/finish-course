@@ -1,12 +1,11 @@
 import React from 'react'
+import HomeHoliday from '../../components/HomeSection/HomeHoliday'
 import HomeSection from '../../components/HomeSection/HomeSection'
 
 const HomePage = () => {
   return <div>
     <HomeSection />
-    <HomeSection />
-    <HomeSection />
-    <HomeSection />
+    <HomeHoliday />
   </div>
 }
 
