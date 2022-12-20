@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HomeCaRouselWrapper = styled.div`
   width: auto;
-  height: 523px;
+  height: fit-content;
   .carousel-root {
     padding: 10px;
   }
