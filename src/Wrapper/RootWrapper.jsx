@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Footer from '../components/layout/Footer/Footer'
 import Header from '../components/layout/Header/Header'
 import AirPodsPage from '../pages/AirPodsPage/AirPodsPage'
 import HomePage from '../pages/HomePage/HomePage'
@@ -23,6 +24,7 @@ const RootWrapper = () => {
         <Route path="/watch" element={<WatchPage />} />
         <Route path="/airpods" element={<AirPodsPage />} />
       </Routes>
+      <Footer />
     </BrowserRouter >
   )
 }
